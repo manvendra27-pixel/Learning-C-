@@ -1,0 +1,47 @@
+# printf() and its purpose
+
+    - printf is not any keyword its a readymade library function that is used to show the output on the screen 
+    - and this library function is coming from the #include <stdio.h> header file means, the functionality of printf() is set only in this header file so, it is important to add this header files before using the printf() function which work is to just print the output on the screen.
+    - syntax : printf( "<format String> ", <lists of variable>)
+
+    what are format strings ?
+        - %f : this is for real values
+        - %d : this is for integer values
+        - %c : and this is for character values
+
+        examples: printf("%f", a); printf("%d", num); printf("%c", character);
+        some adv example: printf(" Principle = %d", p); printf("principle  = %d\nRate = %f", p, r) // not only format string you can also type a specific message for that which shows in the output before the calculation.
+
+Extra knowledge: while reading compilation and execution i studied about microprocessor, dual quad and octa core , 7nm processor CPU, microprocessor and controller 
+
+#scanf():
+        - scanf() is also a readymade library function in c program present in <stdio.h> header file which function is to take some values as input from the user 
+        - it helps taking input values from the keyboard because keyboard is the input device that gives input ot the computer.
+        - ex. #include <stdio.h>
+
+                int main() {
+                    int p, n;
+                    float r, si;
+                    printf("Enter principal amount, number of years and rate of intrest:");
+                    scanf("%d %d %f", &p, &n, &r);
+                    si = (p * n * r) / 100;
+                    printf("Simple intrest is: %f", si);
+
+                    return 0;
+                }               
+
+                * we already know bout the header file, int main() {} function, int float, printf() function
+                * lets explain the scanf(): here in this statement we use simmple scanf() function just like printf(),
+                * inside this scanf() we use format string <%d, %f> in the double quotes " ", but there is one thing that we use an '&' symbol before the variable like &p, &n  as u kow in printf we directly use the variable name like ("%d", p) but why '&' symbol here, 
+
+                * '&' it calles the amperstand and it denotes the `address of operator ` meaning that we know that everything stores in the memory unit and every memory unit have a location or an address like in a colony there are some house and each house have their house number and that house number locats in that colony
+
+                so like that way ' & ' represent that address in the memory that variable address like house number address in a colony at which location that variable is stored
+
+                when we use &a so & represent the memory address and a is the variable that stay there in that memory location 
+                let say & = 1000 so the variable a is stores at 1000a and inside that a there must be a value like 100 so 1000100.
+                
+                 _______1000   herer 1000 is the memory address and 10 is the value that stores in that address
+                |       |
+                |  10   |
+                |_______|

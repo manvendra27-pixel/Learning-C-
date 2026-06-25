@@ -1,0 +1,92 @@
+# In the world of Java, Python, C++, C# why still we need to learn C language ? 
+# Why not only learn but to understand C today? why bother to learn this language
+
+# The answer is:
+    * As we know C++, C# and java uses concept of OOPs to organize program which offers many advantages like ( clsss, object, inheritance, encapsulation, polymorphism, abstaction, etc ), they give many of this features to understand you need some basic programming  skills.
+    
+    * All of our major operating systems like UNIX, LINUX and Android ae written in c language and if any of these OS needs to extend (increase more power) they need to write "device driver program" and that exclusively written in C. means if u want to uograde sny os or create new os you have to write program in C.
+
+    * In today's, world we aare dependent on smart devices like microwave oven, washing machine, digital camers and also day by day these smart devices are getting more smart why because they run on a microprocessors, means all this smartness of these smart devices came from that microprocessors, an operating system and a program that embedded in these devices so, C is the language of choice while building such OS, and programs
+
+    * We play many of the computer games like finding some objects, firing bullets, these games are very fast and to match the spped the game must react fast "like i press a key soo game should react quick " these games are build using some gaming frameworks like (DirectX) these framwork are written in C 
+
+And, in this today's world we are surrounded by may of the machines, technologies, ervrything is connected with C because C is the mother of all the languages and if we think that we are writing code in C++, C#, or java thats correct but somewhere they all are happenning becasue of C so, these reasons are enough to make you learn C in today's world.
+
+# if you starting C so first, understand the (Alphabest, digits, special symbol), (constrants, variable, keywords), Instruction, Program 
+just like the process of learning english first we learn A-Z, then make words from that , then sentence, than a paragraph.
+
+    * English- A-Z -> apple -> Apple is a fruit -> An apple is a crisp, nutritious, and edible fruit produced by the Malus domestica tree. Cultivated for thousands of years, these fruits are famous worldwide for their rich dietary fiber, vitamins, and antioxidants. Available in a variety of vibrant colors, they are enjoyed raw, juiced, or baked into pies. 
+
+    * C - (A-Z, a-z, 0-9, ~!@#$%^&*()_-+={}[]:;"'?/|\) -> int -> int a = 12 -> #include <stdio.h>
+
+    int main() {
+    int a = 12;
+    printf("The value of a is %d\n", a);
+    return 0;
+    }
+
+There are some rules for that like in english we have to foollow the grammer just like that 
+
+constrants, variable, keywords ->
+        * constrants: constrants is of two types: 
+                            * Pimary constrants 
+                                    + integer (int), real (flot), character (char)
+                                    int - must have a number
+                                        - range depends on the compiler power like vs code gives range of -2147483648 to +2147448367 c or turbo c compiler gives range of -32768 to +32767
+                                        - decimal point or commas (,) or blanks are not allowed
+                                    real - must have decimal (.) rest same as int
+                                         - range is from    
+                                    character - single alphabet required not digit or decimal or special symbol are allowed 
+                                              - shoulde me store in single inveted commas ' ' eg. 'A', 'b', '5', '+'
+
+                            * secondary constrants 
+                                    + pointers, Array, String, Structure, Union, Enum 
+
+Variables :- a variable its just a name of a container that holds a specific type of value like an integer type variable stores only integer constrants, a real type variable stores only real constrants and a character type variable stores only character constrants 
+        ex - int = 2, float = 3.2, char = 'a' 
+
+Keywords :- keywords are predefined words that meaning is already set its meaning cannot be changed at any cost like void, auto, breaks, enum, int, etcc.... there ar 32 keywords in c thats meaning is already fixed 
+
+## i write a normal calculate simple intrest code that calculate the simple intrest 
+formula of calculating simple intrest is 
+    principal ammout * rate of intrest * number of years dividedd by 100
+        let say amt is 1000 at a rate of 6.7% for 3 years 
+        so, 
+            (1000 * 6.7 * 3) / 100
+            20,100 / 100
+            201.00
+
+
+
+## coomments in c :- there are two types of comment in c 
+    single line comments:- // comments 
+    multiline comments:- /* comments */
+
+why use comments as we know we write code as instruction like this:
+
+    #include <stdio.h>
+
+    int main() {
+    int a = 12;
+    printf("The value of a is %d\n", a);
+    return 0;
+    }  
+    
+    in this no on understand which lines means what and what exactly its doing this is a code that do something and goves the output there is no doubt but this visibal term no one easily understand 
+
+    forr that reason we type comment in normal english or any human understandable language that simply defines the meaning of that line of code 
+    so, 
+            int main() { } // this is an integer type function that starts and inside that function all the code is going to written 
+
+            that comment defines the meaning if that code.
+        
+
+## to run a c program in vs code :-
+    gcc filename.c -o program 
+        * gcc - we know computer understand 0 and 1 so gcc calls GNU compiler collection so it cinverts the human lang into binary 
+        * filename.c this is the file name that we wnat to translate into binary and .c defines that its an c file 
+        * -o -> this is a flog or can say switch that stand for output 
+        * prpgram this give a name by using it u get the output like it can be anything not only program 
+    ./program 
+
+    instead of this ./program you can give any name like gcc filename.c -o manav or dog and while running just ./manav, ./dog

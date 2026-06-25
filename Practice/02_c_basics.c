@@ -12,6 +12,7 @@ int main() {
     simple_intrest = (principal * rate * num) / 100;
 
     printf("Simple intrest is: %f\n", simple_intrest);
+    printf("Simple intrest = %f \nRate = %f", simple_intrest, rate);
 
     return 0;
 
