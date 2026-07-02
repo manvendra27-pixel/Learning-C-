@@ -1,6 +1,6 @@
 # include <stdio.h>
 
-int main(0) {
+int main() {
 
     int length, bredth, radius_of_circle;
 

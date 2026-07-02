@@ -1,0 +1,9 @@
+# Compiled C outputs
+build/
+*.out
+*.exe
+
+# Editor and OS files
+.vscode/
+*.swp
+.DS_Store
