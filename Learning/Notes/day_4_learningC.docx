@@ -1,0 +1,58 @@
+#Chapter 2 -> C Instructions 
+
+    In this chapter we are going to learn about C instruction.
+    types of instructtions
+    type conversion
+    hierarchy operation
+    associavity of operators
+    control Instructions
+
+### Typess decllaration instruction: 
+
+        the instruction is used to declare the type of variable being used in the program
+        likw what are the correct instructions to declare a variable
+        int a, b, C ; int a = 10; int a, b, c ; a =b= c= 10; 
+        float p, q, r 
+        char name, roll_no
+
+Note: modular operator is (%) not used with float type or variable.
+      also the remained we get usign modular symbol ( % ) the sign is same as in the numerator of the problem 
+      ex: -10 % 2 = -5, whereas 10 % 2 = 5 so whatever the sign of numerator is comes with the output remainder
+      
+
+Arithmatic instructions:
+
+        instructions consist of a varibale name on the left side of the '=' and the constants are on the right side of the '=' and variable and constants are connected with operators are called arithmatic instructions.
+        ex-> 
+            int ad;
+            float kot, deta, alpha, beta, gamma; 
+            ad = 3200;
+            kot = 0.0056;
+            deta = alpha * beta / gamma + 3.2 * 2 / 5;
+
+            here:   * / + - are the operators 
+                    = is an assignment operator 
+                    2, 5, 3200 are the integer constants.
+                    0.0056, 3.2 are the real constants decimal values.
+                    rest, ad, kot, alpha, beta, gamma are the variable names.
+                    
+        pow() function: it is a function in c that is comes in math.h header file which means is to calculate the fower of a number 
+        syntax pow(number, power value) = pow(3.0, 2.0) means 3 to the power 2 
+
+Integer and Float conversion:
+    the result of two integer oprands is an integer value,  5 / 2 = 2
+    same the result of two real constants is a real value,  5.0 / 2.0 = 2.5
+    but the operation b/w an integer and real values always yields to real vallue 5 / 2.0 = 2.5
+
+Hierarchy of operations: 
+
+                it simply means the priority or precendence in which the operation is going to be performed.
+                if i write 2 * 5 - 4 * 2 we dont know wheather its is 2(5-4(2)) or (2 * 5) - (4 * 2) so on so we use hierarchy to overcome this problem 
+
+                Priority        Operatiors      Description
+                  1st             * / %         Multiplication, division, and Modular division
+                  2nd              + -          Addition and Substraction
+                  3rd               =           Assignment 
+        
+        These are the hierarchy of the operators in this serial any equetion is going to solve.
+        

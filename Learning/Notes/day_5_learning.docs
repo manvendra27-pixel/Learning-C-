@@ -1,0 +1,6 @@
+# Today i learn some formulass of math.h header file 
+    
+    * sqrt : to find the square root of the number sqrt(3 2) it square root of 3 which is 9
+    * atan2 = tan^-1 or tan inverse
+    * acos = cos^-1 or cos inverse
+    * M_PI = pi value 3.14.... is already set in c programming u dont need to declare it or initialize it untile it customized.

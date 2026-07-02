@@ -1,10 +1,29 @@
-# Learning-C-
-learning c language from scratch without using any AI tool 
+# C_Learning :
+    
+    This is the parent directory that tells allabout the journcy of learning c programming again from scratch without using any AI tool.
 
-//header file for input and poutput functions meaning thats this header file contains some predefined functions for input and output operations like user gives some inputand in returns want some output so this header file called stdio.h have some predefined functions for that purpose like printf() and scanf() functions are defined in this header file so we need to include this header file in our program to use those functions otherwise we will get an error when we try to use those functions without including the header file.
+    In this directory there are three main folders " Learning, Practice, Projects " these teels everything about the journy.
 
+## Learning :
 
-// This is a simple c program that shows the sum of two numbers in this program int main() is the main function inside that all the code is written and executed when we run the program 
-// why int main() is used as main funciton why not something else like void manav() or anything like that because int main() is the standard way to define the main function meaning that its like the entry point of a program its predecided that whenever we run the c program then system search forr the main() function and execute the code written inside that its not a magical word its just a predefined standard thats tell the system to go for the function that named as main()and execute the code and return the value to the operating system after execution of the code inside the main() function. 
+    ...![Learning path](./Learning/Notes/day_1_learningC.docx)
 
-// int is just a data type that is used to define a variable that actuallly holds the interger value and it uses 4 bytes of memory to stores the integer value means  any single number like 2 are called integer value of 4 bytes of memory, 23 is an integer type number that uses 
+    ...In learning directiry there is another folder called " Notes " thats i make my self and what i am learning daily,
+
+    ...This folder contains all my daily learning about c programming 
+
+## Practise :
+
+    ### [Praactice] (./Practice/basic_programming)
+
+    ### This directory is all about doing basic basic programs and my daily practise what program i do in a day.
+    
+    ### In this folder whatever the program i do during this journy that tells about everything 
+
+    ### In this directory there are more directory that seprates the basic program, intermidiate program, and advanced program 
+
+## Projects :
+
+    * This file is the main final file that contains the minor or major projects of mine that  i am going to build at the end of the learning c programming.
+
+    *
